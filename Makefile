@@ -1,3 +1,5 @@
+.DEFAULT_GOAL := all
+
 WORKSPACE_TOPLEVEL := $(CURDIR)
 MAKEFILE_DIR := $(patsubst %/,%,$(dir $(realpath $(lastword $(MAKEFILE_LIST)))))
 
